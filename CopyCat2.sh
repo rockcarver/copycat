@@ -56,7 +56,7 @@ env_import_menu() {
 	printf "\n${normal}    ENVIRONMENT SELECTOR FOR IMPORT ${normal}\n"
 	printf "\n"
 	printf "${menu}******************************************************* ${normal}\n"
-	printf "${menu}**${number} 1)${menu} Identity Cloud ${normal}\n"
+	printf "${menu}**${number} 1)${menu} Identity Cloud / Encore ${normal}\n"
 	printf "${menu}**${number} 2)${menu} Catalyst ${normal}\n"
 	printf "${menu}**${number} 3)${menu} Custom URL ${normal}\n"
 	printf "${menu}******************************************************* ${normal}\n"
@@ -146,7 +146,7 @@ frodo idp export -a -f ../master/$fname $source $realm $user $pass
 export_all_idm() {
 fname='allIDM.json'
 frodo idm export -A -D idm/ $source $realm $user $pass
-# frodo idm export -a -D master/ -f master/$fname $source $realm $user $pass
+frodo idm export -a -D master/ -f master/$fname $source $realm $user $pass
 }
 
 export_all_cot() {
