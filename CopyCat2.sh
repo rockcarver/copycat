@@ -36,7 +36,7 @@ env_export_menu() {
 	printf "\n${normal}    ENVIRONMENT SELECTOR FOR EXPORT ${normal}\n"
 	printf "\n"
 	printf "${menu}******************************************************* ${normal}\n"
-	printf "${menu}**${number} 1)${menu} Identity Cloud ${normal}\n"
+	printf "${menu}**${number} 1)${menu} Identity Cloud / Encore  ${normal}\n"
 	printf "${menu}**${number} 2)${menu} Catalyst ${normal}\n"
 	printf "${menu}**${number} 3)${menu} Custom URL ${normal}\n"
 	printf "${menu}******************************************************* ${normal}\n"
