@@ -1,0 +1,100 @@
+# Changelog
+
+All notable changes to this project are documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+
+## V5a	2022-07-22
+
+### Changed
+- Cleaned up some dirty routines
+
+### Fixed
+- Repaired an inability to bounce backwards between menus
+
+### Added
+
+
+## V5b	2022-07-22
+
+### Changed
+
+### Fixed
+
+### Added
+- Created the first draft of CopyCat (merger between legacy Import and Export scripts
+- Added README files to .ZIP
+
+
+## V5c	2022-07-22
+
+### Changed
+
+### Fixed
+
+### Added
+- Created the CopyCat README and CHANGELOG file to .ZIP
+
+### Deleted
+Removed the legacy Import and Export scripts from .ZIP
+
+### Outstanding
+Cloning capability still needs 'enabled'. Should appear in V6
+
+
+## V6		2022-08-02
+
+### Added
+Support for custom namespaces (i.e. Target URL contains neither �forgeblocks.com� nor �forgerock.org�
+
+### Changed
+Renamed tool to CopyCat2
+
+
+## V6.1		2022-08-02
+
+### Added
+Exports now contain a single 'Master File' in addition to the separate files.  All 'Masters' are under $NameSpace/Master
+Wording to each export to notify the user of the new 'Master File' and it's respective location.
+
+### Changed/Updated
+As FRODO (which is what the tool is built on) is constantly evolving/changing, this release replaced a few 'switches'.
+Older versions of this tool will now fail in places.
+
+### Fixed
+Typos in a few routines which were causing exports and imports to sporadically fail.
+
+## V6.2   2022-08-05
+
+## Added
+Prior to import, we now execute a routine to ensure all source files contain the target URI
+within all aspects of the system (journeys, application, Social IDP, etc).  This is done as
+the import files still contain references to the source environment.
+
+## V6.3   2022-08-24
+
+## Added
+Compute then display the number of modifications made during a migratory exports
+
+## Fixed
+IDM Exports now work
+
+## V7.0   2022-09-20
+
+## Fixed
+Ability to export from a custom URL
+
+## V8.0   2023-02-22
+
+## Added
+Support for Encore
+Support for Import/Export of:
+  * Agents
+  * Service Accounts
+
+## Fixed
+Conversion between environments of the same architecture updated to support latest platform technology
