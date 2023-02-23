@@ -32,6 +32,8 @@ will be populated by data with the same target URL.  If not, you will enter that
 happen behind the scenes (prior to import)
 
 
-*** DEVELOPERS NOTES ***
+*** EXECUTION ***
 Ensure this tool is located (and executed) in the directory which houses the parent namespace folders.
-In my case it is:  /Users/<my name>/Environments
+In my case it is:  /Users/<my name>/Environments.
+
+You will have to CHMOD the master script before running:   chmod 777 CopyCat3.sh
