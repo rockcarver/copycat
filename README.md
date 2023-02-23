@@ -1,4 +1,4 @@
-# copycat
+# CopyCat
 CopyCat is a wrapper for Frodo.  Now supports Encore environments as well.
 
 # ForgeRock ToolBox
