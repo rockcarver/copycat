@@ -1,8 +1,6 @@
 # CopyCat
 CopyCat is a wrapper for Frodo.  Now supports Encore environments as well.
 
-# ForgeRock ToolBox
-
 Welcome to 'CopyCat', your one-stop-shop for exporting, importing, and out right cloning and entire environemt.
 This tool now supports both Identity Cloud, Self-Managed for SE (Catlayst & Encore) and Custom URL (for customers).
 
