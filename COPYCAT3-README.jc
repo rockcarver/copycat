@@ -1,4 +1,5 @@
-# ForgeRock ToolBox
+# CopyCat
+CopyCat is a wrapper for Frodo.  Now supports Encore environments as well.
 
 Welcome to 'CopyCat', your one-stop-shop for exporting, importing, and out right cloning and entire environemt.
 This tool now supports both Identity Cloud, Self-Managed for SE (Catlayst & Encore) and Custom URL (for customers).
@@ -23,5 +24,13 @@ The import portion of this tool ONLY REQUIRES the existence of the "namespace" d
 (which should have been created via the EXPORT utility).  Otherwise, you can enter the source namespace (i.e. you exported from
 HC-demo71c but are now importing into HC-demo71d).
 
-Ensure this tool is located (and executed) in the directory which houses the parent namespace folders.
-In my case it is:  /Users/<my name>/Environments
+CLONING
+In an effort to support this functionality, the 'IMPORT' process was adjusted in order to ask the user whether or not the destination
+will be populated by data with the same target URL.  If not, you will enter that information so the proper conversion routine can
+happen behind the scenes (prior to import)
+
+
+*** EXECUTION ***
+Ensure this tool is located (and executed) in the directory which houses the parent namespace folders. In my case it is: /Users//Environments.
+
+You will have to CHMOD the master script before running: chmod 777 CopyCat3.sh
